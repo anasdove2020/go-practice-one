@@ -66,7 +66,18 @@ go get -u github.com/gin-gonic/gin
 
 # API DOCUMENTATION
 
-http://localhost:8080/users
+GET http://localhost:8080/users
+
+GET http://localhost:8080/users/1
+
+POST http://localhost:8080/users
+
+```
+{
+    "name": "Anas",
+    "email": "anas@gmail.com"
+}
+```
 
 
 
