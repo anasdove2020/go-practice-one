@@ -1,0 +1,13 @@
+# Binaries
+*.exe
+*.out
+*.test
+
+# Build folders
+/bin/
+/build/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store

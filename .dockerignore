@@ -1,0 +1,20 @@
+# Git
+.git
+.gitignore
+
+# Editor/IDE
+.vscode
+.idea
+
+# OS and misc
+.DS_Store
+Thumbs.db
+
+# Go output
+*.exe
+*.out
+*.test
+
+# Local build output
+/bin
+/build

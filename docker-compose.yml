@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  goapp:
+    build: .
+    image: goapp-image
+    container_name: goapp-container
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    environment:
+      - PORT=8080
